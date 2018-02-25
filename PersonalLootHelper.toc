@@ -1,0 +1,37 @@
+## Interface: 70300
+## Title: Personal Loot Helper
+## Version: 1.32
+## SavedVariables: PLH_WHISPER_TEXT, PLH_NOTIFY_MODE, PLH_INCLUDE_BOE, PLH_MIN_QUALITY, PLH_MIN_ILVL, PLH_DEBUG, PLH_CURRENT_SPEC_ONLY, PLH_CHECK_CHARACTER_LEVEL, PLH_COORDINATE_ROLLS, PLH_NOTIFY_GROUP, PLH_HIGHLIGHT_RAID_FRAMES, PLH_HIGHLIGHT_SIZE
+## Notes: Simplifies trading of personal loot by notifying you when a drop is not an upgrade for the looter, but is an upgrade for you or others in your group.
+## Author: Madone-Zul'Jin
+
+##  Raid roll
+## Notes: |cff00ff99Tracks rolls and list them so you can report to guild, party, raid or self.|r
+## eMail: rune_25r@hotmail.com
+## URL:  
+## SavedVariablesPerCharacter: RT_firstlogin, RT_settings, RT_savedrolls
+## DefaultState: enabled
+##   Zandrak / Zagorm (Turalyon - Horde)
+
+##  Raid roll
+##   Musou
+## Notes: An addon that can be used to perform Raid Rolls
+## Version: 6.0.0
+## SavedVariables: RaidRoll_DB,RaidRoll_DBPC
+## SavedVariablesPerCharacter: RR_Accept_All_Rolls,RR_Track_Unannounced_Rolls,RR_Roll_Tracking_Enabled,RR_AllowExtraRolls,RR_Show_Ranks,RR_RankPriority,RR_ExtraWidth,RR_ShowGroupNumber,RR_RollFrameHeight
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+RaidRoll.xml
+
+
+PersonalLootHelper-Constants.lua
+PersonalLootHelper-Trinkets.lua
+PersonalLootHelper-Util.lua
+PersonalLootHelper-Config.lua
+PersonalLootHelper-Core.lua
+
+
+
